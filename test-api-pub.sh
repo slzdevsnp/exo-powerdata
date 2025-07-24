@@ -45,7 +45,10 @@ function assertEqual() {
     exit 1
   fi
 }
+
+### MAIN ###
 set -e
+
 
 echo "HOST=${HOST}"
 echo "PORT=${PORT}"

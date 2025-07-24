@@ -40,6 +40,10 @@ The estimated time investment for this project is 4-6 hours. Use **multiple TODO
 
 For submission, provide your source code as a developed local git repository. Exclude unnecessary files such as build artifacts, external packages, personal settings, and unused boilerplate code. Compress the folder and upload it to a public file sharing service (Google Drive, OneDrive, iCloud Drive, Dropbox), then email the public downloadable url to metis_entsoe_pro@alpiq.com.
 
+
+You can use the provided `test-api-pub.sh` bash script  to persist the data and test first few retrieved foreast values.
+
+
 **NOTE**: These requirements while opinionated on technology are relatively open to interpretation, allowing you to make independent design and implementation decisions that best fit the solution requirements. For data persistence if you decide to use JPA, consider using an in-memory Java H2 database for the simplicity.
 
 # Required items
