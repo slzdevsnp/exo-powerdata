@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "Isola",
+    "engines": [
+      "kellmark",
+      "braxfield",
+      "thornwick",
+      "millstone",
+      "vancorp",
+      "siphon"
+    ]
+  },
+  {
+    "asset": "Zermatt",
+    "engines": [
+      "northbridge",
+      "eastwood",
+      "westgate",
+      "southpark",
+      "riverside",
+      "siphon"
+    ]
+  },
+  {
+    "asset": "Nendaz",
+    "engines": [
+      "rosefield",
+      "blackwater",
+      "greenhill",
+      "silverstone",
+      "fairmont",
+      "siphon"
+    ]
+  },
+  {
+    "asset": "Sion",
+    "engines": [
+      "goldstream",
+      "pinewood",
+      "maplewood",
+      "siphon"
+    ]
+  }
+]
