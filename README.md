@@ -1,3 +1,3 @@
 # exo-powerdata
 
-Please read exercice details from Project_README.md
+Please find the exercice details in Project_README.md
