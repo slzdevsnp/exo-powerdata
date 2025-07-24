@@ -30,7 +30,7 @@ Parameters:
 * start_datetime, end_datetime: mandatory 
 * asset: mandatory 
 
-The retrieval call should process and return the focast data according to a configurable hierarchy (unless an optional provider identifier is provided). For example, if the hierarchy is defined as "provider-A,provider-B" and there is no power data available from the first supplier (provider-A in this case), the implementation should use the data from the 2nd supplier e.g. provider-B. If a provider name is specified, then only that provider's data should be used. You will need to implement a means of dealing with missing values. For imputations use a forward fill method (LOCF).
+The retrieval call should process and return the focast data according to a configurable hierarchy (unless an optional provider identifier is provided). For example, if the hierarchy is defined as "provider-A,provider-B" and there is no power data available from the first supplier (provider-A in this case), the implementation should use the data from the 2nd supplier e.g. provider-B. If a provider name is specified, then only that provider's data should be used. You will need to implement a means of dealing with missing values. For imputations use a forward fill method (LOCF) with the initial boundary value 0.0.
 
 Please provide a **README.txt** file with your solution that documents your design choices and highlights any areas for future development needed to create a more complete solution. Include code comments for local implementation decisions or add notes to the README.txt for project-wide considerations.
 
